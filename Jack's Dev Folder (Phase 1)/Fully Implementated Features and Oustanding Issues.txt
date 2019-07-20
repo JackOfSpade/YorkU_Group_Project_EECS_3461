@@ -1,0 +1,12 @@
+Fully Implemented Features:
+- Canvas with one-size black brush
+- Adjusts drawn positons when canvas size change.
+- Empty menus and tabs
+- New Canvas Button
+- Save File (canvas) Button
+- Open File Button + file chooser dialog
+- Minimization of menus with shortcut key "1", "2".
+
+Outstanding Issues:
+- Resizing has been disabled becaues it still messes with drawing.
+- Large images will not work, hard to resize properly.

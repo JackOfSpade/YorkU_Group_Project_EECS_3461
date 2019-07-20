@@ -10,9 +10,9 @@ public class OverallPanel extends JPanel implements KeyListener
     protected final int DELTA_DIMENSION = 25;
     protected final int MAX_DIMENSION = (int)(screenSize.getWidth()/2);
     private static final int DELAY = 10;
-    private JPanel canvasPanel = new CanvasPanel();
-    private JPanel menuPanel = new MenuPanel((CanvasPanel) canvasPanel);
-    private JPanel quickSelectPanel = new QuickSelectPanel();
+    private CanvasPanel canvasPanel = new CanvasPanel();
+    private QuickSelectPanel quickSelectPanel = new QuickSelectPanel();
+    private MenuPanel menuPanel = new MenuPanel(canvasPanel, quickSelectPanel);
     private int dimension = 0;
 
     public OverallPanel()
@@ -27,6 +27,7 @@ public class OverallPanel extends JPanel implements KeyListener
 
         menuPanel.setMinimumSize(new Dimension(300, 0));
         quickSelectPanel.setMinimumSize(new Dimension(0, 150));
+
 
         menuPanel.setPreferredSize(menuPanel.getMinimumSize());
         quickSelectPanel.setPreferredSize(quickSelectPanel.getMinimumSize());
@@ -76,10 +77,12 @@ public class OverallPanel extends JPanel implements KeyListener
             if(quickSelectPanel.isVisible())
             {
                 quickSelectPanel.setVisible(false);
+                canvasPanel.adjustPointsBasedOnQuickSelectVisibility(quickSelectPanel);
             }
             else
             {
                 quickSelectPanel.setVisible(true);
+                canvasPanel.adjustPointsBasedOnQuickSelectVisibility(quickSelectPanel);
             }
         }
 
@@ -88,10 +91,12 @@ public class OverallPanel extends JPanel implements KeyListener
             if(menuPanel.isVisible())
             {
                 menuPanel.setVisible(false);
+                canvasPanel.adjustPointsBasedOnMenuVisibility(menuPanel);
             }
             else
             {
                 menuPanel.setVisible(true);
+                canvasPanel.adjustPointsBasedOnMenuVisibility( menuPanel);
             }
         }
     }

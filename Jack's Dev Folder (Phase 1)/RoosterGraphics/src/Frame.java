@@ -17,5 +17,8 @@ public class Frame extends JFrame
         this.pack();
         this.setLocationByPlatform(true);
         this.setVisible(true);
+
+        //Resizing messes with the draws, disabled for now.
+        this.setResizable(false);
     }
 }

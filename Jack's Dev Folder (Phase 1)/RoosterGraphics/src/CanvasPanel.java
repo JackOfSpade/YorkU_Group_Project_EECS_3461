@@ -14,7 +14,6 @@ import javax.swing.*;
 public class CanvasPanel extends JPanel
 {
     List<List<Point>> listOfPoints = new ArrayList<>();
-    JFrame frame = new JFrame();
     BufferedImage image;
     boolean drawImage;
 
@@ -23,14 +22,8 @@ public class CanvasPanel extends JPanel
         MyMouseListener ml = new MyMouseListener();
         this.addMouseMotionListener(ml);
         this.addMouseListener(ml);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setPreferredSize(new Dimension(500, 500));
         this.setBackground(Color.white);
-        frame.add(this);
-        frame.pack();
-        frame.setLocationRelativeTo(null); // center on screen
-        frame.setVisible(true);
-
     }
 
     @Override
@@ -109,6 +102,8 @@ public class CanvasPanel extends JPanel
         {
             JOptionPane.showMessageDialog(null, "Error:" + ex.getMessage());
         }
+
+        JOptionPane.showMessageDialog(null, "Saved to current directory!");
     }
 
     public void openFile()
@@ -131,6 +126,66 @@ public class CanvasPanel extends JPanel
         catch (IOException ex)
         {
             JOptionPane.showMessageDialog(null, "Error:" + ex.getMessage());
+        }
+    }
+
+    public void adjustPointsBasedOnQuickSelectVisibility(QuickSelectPanel quickSelectPanel)
+    {
+        if(quickSelectPanel.isVisible())
+        {
+            for (int x = 0; x < listOfPoints.size(); x++)
+            {
+                Iterator<Point> it = listOfPoints.get(x).iterator();
+                while (it.hasNext())
+                {
+                    Point point = it.next();
+                    point.setLocation(point.getX(), point.getY() - quickSelectPanel.getHeight()/2);
+                }
+
+            }
+        }
+        else
+        {
+            for (int x = 0; x < listOfPoints.size(); x++)
+            {
+                Iterator<Point> it = listOfPoints.get(x).iterator();
+                while (it.hasNext())
+                {
+                    Point point = it.next();
+                    point.setLocation(point.getX(), point.getY() + quickSelectPanel.getHeight()/2);
+                }
+
+            }
+        }
+    }
+
+    public void adjustPointsBasedOnMenuVisibility(MenuPanel menuPanel)
+    {
+        if(menuPanel.isVisible())
+        {
+            for (int x = 0; x < listOfPoints.size(); x++)
+            {
+                Iterator<Point> it = listOfPoints.get(x).iterator();
+                while (it.hasNext())
+                {
+                    Point point = it.next();
+                    point.setLocation(point.getX() - menuPanel.getWidth()/2, point.getY());
+                }
+
+            }
+        }
+        else
+        {
+            for (int x = 0; x < listOfPoints.size(); x++)
+            {
+                Iterator<Point> it = listOfPoints.get(x).iterator();
+                while (it.hasNext())
+                {
+                    Point point = it.next();
+                    point.setLocation(point.getX() + menuPanel.getWidth()/2, point.getY() );
+                }
+
+            }
         }
     }
 }
