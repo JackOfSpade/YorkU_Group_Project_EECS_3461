@@ -13,9 +13,12 @@ import javax.swing.*;
 
 public class CanvasPanel extends JPanel
 {
-    List<List<Point>> listOfPoints = new ArrayList<>();
+    List<List<ColoredPoint>> listOfPoints = new ArrayList<>();
     BufferedImage image;
     boolean drawImage;
+    
+    Color paintBrushColour;
+    BasicStroke strokeSize = new BasicStroke(3);
 
     public CanvasPanel()
     {
@@ -31,7 +34,9 @@ public class CanvasPanel extends JPanel
     {
         super.paintComponent(g);
         //Brush color
-        g.setColor(Color.black);
+        //g.setColor(Color.black);
+        
+        Graphics2D g2d = (Graphics2D) g;
 
         if(drawImage && image != null)
         {
@@ -44,13 +49,17 @@ public class CanvasPanel extends JPanel
         {
             if (listOfPoints.get(x).size() >= 2)
             {
-                Iterator<Point> it = listOfPoints.get(x).iterator();
-                Point p1 = it.next();
+                Iterator<ColoredPoint> it = listOfPoints.get(x).iterator();
+                ColoredPoint p1 = it.next();
+                
+            	g.setColor(p1.paintBrushColour);
+            	g2d.setStroke(p1.strokeSize);
+            	
                 while (it.hasNext())
                 {
-                    Point p2 = it.next();
-                    g.drawLine(p1.x, p1.y, p2.x, p2.y);
-                    p1 = p2;
+                    ColoredPoint p2 = it.next();
+                    g.drawLine(p1.p.x, p1.p.y, p2.p.x, p2.p.y);
+                    p1.p = p2.p;
                 }
             }
         }
@@ -61,7 +70,7 @@ public class CanvasPanel extends JPanel
     {
         public void mouseDragged(MouseEvent mouseEvent)
         {
-            listOfPoints.get(listOfPoints.size()-1).add(mouseEvent.getPoint());
+            listOfPoints.get(listOfPoints.size()-1).add(new ColoredPoint(mouseEvent.getPoint(),paintBrushColour,strokeSize));
             repaint();
         }
 
@@ -69,7 +78,7 @@ public class CanvasPanel extends JPanel
         {
             // initialize first point in list.
             listOfPoints.add(new ArrayList<>());
-            listOfPoints.get(listOfPoints.size()-1).add(mouseEvent.getPoint());
+            listOfPoints.get(listOfPoints.size()-1).add(new ColoredPoint(mouseEvent.getPoint(),paintBrushColour,strokeSize));
         }
     }
 
@@ -135,11 +144,11 @@ public class CanvasPanel extends JPanel
         {
             for (int x = 0; x < listOfPoints.size(); x++)
             {
-                Iterator<Point> it = listOfPoints.get(x).iterator();
+                Iterator<ColoredPoint> it = listOfPoints.get(x).iterator();
                 while (it.hasNext())
                 {
-                    Point point = it.next();
-                    point.setLocation(point.getX(), point.getY() - quickSelectPanel.getHeight()/2);
+                	ColoredPoint point = it.next();
+                    point.p.setLocation(point.p.getX(), point.p.getY() - quickSelectPanel.getHeight()/2);
                 }
 
             }
@@ -148,11 +157,11 @@ public class CanvasPanel extends JPanel
         {
             for (int x = 0; x < listOfPoints.size(); x++)
             {
-                Iterator<Point> it = listOfPoints.get(x).iterator();
+                Iterator<ColoredPoint> it = listOfPoints.get(x).iterator();
                 while (it.hasNext())
                 {
-                    Point point = it.next();
-                    point.setLocation(point.getX(), point.getY() + quickSelectPanel.getHeight()/2);
+                	ColoredPoint point = it.next();
+                    point.p.setLocation(point.p.getX(), point.p.getY() + quickSelectPanel.getHeight()/2);
                 }
 
             }
@@ -165,11 +174,11 @@ public class CanvasPanel extends JPanel
         {
             for (int x = 0; x < listOfPoints.size(); x++)
             {
-                Iterator<Point> it = listOfPoints.get(x).iterator();
+                Iterator<ColoredPoint> it = listOfPoints.get(x).iterator();
                 while (it.hasNext())
                 {
-                    Point point = it.next();
-                    point.setLocation(point.getX() - menuPanel.getWidth()/2, point.getY());
+                	ColoredPoint point = it.next();
+                    point.p.setLocation(point.p.getX() - menuPanel.getWidth()/2, point.p.getY());
                 }
 
             }
@@ -178,14 +187,29 @@ public class CanvasPanel extends JPanel
         {
             for (int x = 0; x < listOfPoints.size(); x++)
             {
-                Iterator<Point> it = listOfPoints.get(x).iterator();
+                Iterator<ColoredPoint> it = listOfPoints.get(x).iterator();
                 while (it.hasNext())
                 {
-                    Point point = it.next();
-                    point.setLocation(point.getX() + menuPanel.getWidth()/2, point.getY() );
+                	ColoredPoint point = it.next();
+                    point.p.setLocation(point.p.getX() + menuPanel.getWidth()/2, point.p.getY() );
                 }
 
             }
         }
     }
 }
+
+class ColoredPoint {  // an object of this class represents a colored line segment
+
+	Point p;
+	Color paintBrushColour;
+	BasicStroke strokeSize;
+	
+	public ColoredPoint(Point p, Color color, BasicStroke size) {
+		this.p = p;
+		this.paintBrushColour = color;
+		this.strokeSize = size;
+	}
+
+
+} // end class ColoredLine
