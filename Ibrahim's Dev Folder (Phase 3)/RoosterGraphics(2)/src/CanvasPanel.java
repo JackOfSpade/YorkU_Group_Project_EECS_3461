@@ -270,7 +270,7 @@ public class CanvasPanel extends JPanel
 
     }
 
-    public void vividFilter(){
+    public void vividFilter(){ //Still not implemented properly
         if(image!=null){
             int width = image.getWidth();
             int height = image.getHeight();
@@ -285,7 +285,7 @@ public class CanvasPanel extends JPanel
                     int b = (p & 0xff);
 
                     float[] col = Color.RGBtoHSB(r,g,b, hsb);
-                    hsb[1] *= 1.01;
+                    hsb[0] *= 1.05;
                     //int avg = (r + g + b) / 3;
                     //p = (a << 24) | (r << 16) | (g << 8) | b; //Putting the values together
                     image.setRGB(x, y, Color.HSBtoRGB(hsb[0], hsb[1], hsb[2]));
