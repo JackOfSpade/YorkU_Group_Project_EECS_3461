@@ -46,7 +46,11 @@ public class DrawOptionsPanel extends JPanel
         this.brushField = new JTextField("10",10);
         this.label = new JLabel("brushsize: 3",JLabel.LEFT);
         this.brushSlider = new JSlider(JSlider.HORIZONTAL, 1, 50, 3);
-        //textBox.setBackground(new Color(238, 238, 238));
+        textBox.setBackground(new Color(238, 238, 238));
+        rotateButton.setBackground(new Color(238, 238, 238));
+        paintBucket.setBackground(new Color(238, 238, 238));
+        brush.setBackground(new Color(238, 238, 238));
+
 
         label.setText("brushsize: 3");
         label.setAlignmentX(LEFT_ALIGNMENT);
@@ -61,12 +65,12 @@ public class DrawOptionsPanel extends JPanel
         // Adding buttons to panels
         panel1.add(rotateButton);
         panel1.add(textBox);
-        panel1.add(paintBucket);
-        panel1.add(newPaintBrushButton);
+        //panel1.add(paintBucket);
+        //panel1.add(newPaintBrushButton);
         panel1.add(brush);
         panel1.add(label);
         panel1.add(brushSlider);
-        panel1.add(brushField);
+        //panel1.add(brushField);
 
         // Button listeners and actions
         rotateButton.addActionListener(new ActionListener()
@@ -151,10 +155,15 @@ public class DrawOptionsPanel extends JPanel
         JSlider blurDegree = new JSlider(JSlider.HORIZONTAL, 0, 9, 0);
         JSlider sharpnessDegree = new JSlider(JSlider.HORIZONTAL, 0, 10, 0);
         JButton blackwhite = new JButton(blackWhiteIcon);
-        JToggleButton warmfilter = new JToggleButton(warmIcon);
+        //JToggleButton warmfilter = new JToggleButton(warmIcon);
+        JButton warmfilter = new JButton(warmIcon);
         JButton vivid = new JButton(vividIcon);
         JLabel blurLabel = new JLabel(blurIcon);
         JLabel sharpnessLabel = new JLabel("Sharpness");
+        warmfilter.setBackground(new Color(238, 238, 238));
+        blackwhite.setBackground(new Color(238, 238, 238));
+        vivid.setBackground(new Color(238, 238, 238));
+
         // Adding buttons to panels
         panel3.add(blurLabel);
         panel3.add(blurDegree);
