@@ -8,6 +8,7 @@ import java.awt.event.MouseListener;
 public class QuickSelectPanel extends JPanel
 {
 	Color currentColour = Color.black;
+	Color previousColour = null;
 	
     public QuickSelectPanel(CanvasPanel canvasPanel)
     {
@@ -306,9 +307,11 @@ public class QuickSelectPanel extends JPanel
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				// TODO Auto-generated method stub
-				//canvasPanel.paintBrushColour = Color.yellow;
-				//canvasPanel.strokeSize = new BasicStroke(6);
-				//canvasPanel.
+				if (previousColour == null) {
+					canvasPanel.paintBrushColour = Color.black;
+				}else {
+					canvasPanel.paintBrushColour = previousColour;
+				}
 				//repaint();
 			}
 
@@ -344,7 +347,8 @@ public class QuickSelectPanel extends JPanel
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				// TODO Auto-generated method stub
-				
+				canvasPanel.paintBrushColour = Color.white;	
+				 previousColour = currentColour;
 			}
 
 			@Override

@@ -45,7 +45,7 @@ public class CanvasPanel extends JPanel
             g.drawImage(image, width, height, this);
         }
 
-        for(int x=0; x<listOfPoints.size();x++)
+        for(int x=0; x < listOfPoints.size(); x++)
         {
             if (listOfPoints.get(x).size() >= 2)
             {
@@ -58,8 +58,8 @@ public class CanvasPanel extends JPanel
                 while (it.hasNext())
                 {
                     ColoredPoint p2 = it.next();
-                    g.drawLine(p1.p.x, p1.p.y, p2.p.x, p2.p.y);
-                    p1.p = p2.p;
+                    g.drawLine(p1.getPoint().x, p1.getPoint().y, p2.getPoint().x, p2.getPoint().y);
+                    p1 = p2;
                 }
             }
         }
@@ -210,6 +210,17 @@ class ColoredPoint {  // an object of this class represents a colored line segme
 		this.paintBrushColour = color;
 		this.strokeSize = size;
 	}
-
+	
+	public Point getPoint() {
+		return p;
+	}
+	
+	public Color getColor() {
+		return paintBrushColour;
+	}
+	
+	public BasicStroke getSize() {
+		return strokeSize;
+	}
 
 } // end class ColoredLine
