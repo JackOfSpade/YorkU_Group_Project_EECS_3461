@@ -2,226 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de52e57f-1caa-42cb-bcfd-a7fb78878194" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/EECS_3461_A3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/BlackWhiteIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/BlurIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/BlurIcon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Colors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/DarkEraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/DarkPaintBrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Effects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/NewCanvas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/OpenFile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/PaintBrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/PaintBucketIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Rooster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/RotateIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/SaveFile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/TextIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Thin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/Tools.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/VividIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Resources/WarmIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/RoosterGraphics.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/RoosterGraphics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/RoosterGraphics.userlibraries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/Saved_Image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/1. File Structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/CanvasPanel$MyMouseListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/CanvasPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/ColoredPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/DrawOptionsPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/FileOptionsPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/FileOptionsPanel$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/FileOptionsPanel$2$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/FileOptionsPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/FileOptionsPanel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/FileOptionsPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/Frame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/InvisibleTextField$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/InvisibleTextField.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/MenuPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/OverallPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/OverallPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/OverallPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$20.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/out/production/RoosterGraphics/QuickSelectPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/1. File Structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/CanvasPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/DrawOptionsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/FileOptionsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/InvisibleTextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/MenuPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/OverallPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics(2)/src/QuickSelectPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/Resources/DarkEraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/Resources/DarkPaintBrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/Resources/Eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/Resources/Large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/Resources/Medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/Resources/PaintBrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/Resources/Thin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/RoosterGraphics.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/RoosterGraphics.userlibraries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/ColoredPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$20.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/Matt's Phase 2 Video.flv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/Brightness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/DarkDropper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/DarkEraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/DarkPaintBrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/Dropper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/Eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/Grad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/Large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/Medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/PaintBrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/RGB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/Thin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/letterB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/letterG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/letterH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/letterR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/Resources/letterS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/ColorModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/ColorWheel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/ColorWheel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/ColorWheel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/ColorWheel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/ColoredPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$20.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/ColorModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/ColorWheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel$MyMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel$MyMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/src/CanvasPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/src/CanvasPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/src/DrawOptionsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ibrahim's Dev Folder (Phase 3)/RoosterGraphics/src/DrawOptionsPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel$MyMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel$MyMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/CanvasPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/DrawOptionsPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/FileOptionsPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/Frame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/MenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/MenuPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/OverallPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/OverallPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/OverallPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/OverallPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/OverallPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/OverallPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/out/production/RoosterGraphics/QuickSelectPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/CanvasPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/CanvasPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/DrawOptionsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/DrawOptionsPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/MenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/MenuPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/OverallPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/OverallPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/QuickSelectPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/RoosterGraphics/src/QuickSelectPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Matthew's Dev Folder (Phase 2)/Matt's Phase 2 Video.flv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Phase 1 Video.webm" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1OWEqqgv8LQHe8JHtbFMdY8sELP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -235,10 +34,46 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="RoosterGraphics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de52e57f-1caa-42cb-bcfd-a7fb78878194" name="Default Changelist" comment="" />
+      <created>1564085148094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564085148094</updated>
+      <workItem from="1564085156544" duration="521000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
