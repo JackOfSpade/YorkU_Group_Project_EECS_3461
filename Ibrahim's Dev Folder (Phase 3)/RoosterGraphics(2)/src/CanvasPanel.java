@@ -2,6 +2,7 @@ import java.awt.*;
 import java.awt.color.ColorSpace;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorConvertOp;
 import java.awt.image.ConvolveOp;
@@ -24,6 +25,8 @@ public class CanvasPanel extends JPanel
     BasicStroke strokeSize = new BasicStroke(3);
 
     BufferedImage[] blurredImages = new BufferedImage[10];
+    private int rotateDegree = 0;
+    private boolean rotateBool = false;
 
     public CanvasPanel()
     {
@@ -47,7 +50,23 @@ public class CanvasPanel extends JPanel
         {
             int width = (this.getWidth() - image.getWidth(null)) / 2;
             int height = (this.getHeight() - image.getHeight(null)) / 2;
-            g.drawImage(image, width, height, this);
+
+            if(rotateBool)
+            {
+//            AffineTransform old = g2d.getTransform();
+//            g2d.rotate(Math.toRadians(rotateDegree));
+//            //draw shape/image (will be rotated)
+//            g2d.setTransform(old);
+                width = (this.getWidth() - image.getWidth(null)) / 2;
+                height = (this.getHeight() - image.getHeight(null)) / 2;
+                AffineTransform at = AffineTransform.getTranslateInstance(width,height);
+                at.rotate(Math.toRadians(rotateDegree), (this.getWidth()+299)/2, (this.getHeight()+99)/2);
+                g2d.drawImage(image,at,null);
+                rotateBool = false;
+            }
+            else {
+                g.drawImage(image, width, height, this);
+            }
         }
 
         for(int x=0; x<listOfPoints.size();x++)
@@ -59,7 +78,7 @@ public class CanvasPanel extends JPanel
 
             	g.setColor(p1.paintBrushColour);
             	g2d.setStroke(p1.strokeSize);
-            	
+
                 while (it.hasNext())
                 {
                     ColoredPoint p2 = it.next();
@@ -68,6 +87,7 @@ public class CanvasPanel extends JPanel
                 }
             }
         }
+
     }
 
     // MouseAdapter provides dummy implementations
@@ -91,6 +111,7 @@ public class CanvasPanel extends JPanel
     {
         listOfPoints = new ArrayList<>();
         drawImage = false;
+        blurredImages[0] = null;
         repaint();
     }
 
@@ -300,6 +321,12 @@ public class CanvasPanel extends JPanel
             image = blurredImages[value];
             repaint();
         }
+    }
+
+    public void rotateImg(int degree){
+        rotateDegree += degree;
+        rotateBool = true;
+        repaint();
     }
 
 }

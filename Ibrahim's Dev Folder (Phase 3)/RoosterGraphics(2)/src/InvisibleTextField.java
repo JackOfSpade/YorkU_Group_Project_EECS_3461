@@ -13,7 +13,7 @@ public class InvisibleTextField extends JTextField
         setColumns( 1 );
 //      setBorder( null );
         setSize( getPreferredSize() );
-        setColumns( 0 );
+        setColumns( 1 );
         addActionListener( this );
         addFocusListener( this );
         addMouseListener( this );

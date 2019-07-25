@@ -69,8 +69,10 @@ public class DrawOptionsPanel extends JPanel
         panel1.add(brushField);
 
         // Button listeners and actions
-        rotateButton.addChangeListener(new ChangeListener() {
-            public void stateChanged(ChangeEvent e) {
+        rotateButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e){
+                canvasPanel.rotateImg(15);
             }
         });
         label.addPropertyChangeListener(
