@@ -23,21 +23,30 @@ public class DrawOptionsPanel extends JPanel
         ImageIcon colorsIcon = resizeIcon(new ImageIcon("Resources/Colors.png"), 30, 30);
         ImageIcon effectsIcon = resizeIcon(new ImageIcon("Resources/Effects.png"), 30, 30);
         ImageIcon paintBrushIcon = resizeIcon(new ImageIcon("Resources/PaintBrush.png"), 50, 50);
+        ImageIcon blurIcon = resizeIcon(new ImageIcon("Resources/BlurIcon.png"), 35, 50);
+        ImageIcon blackWhiteIcon = resizeIcon(new ImageIcon("Resources/BlackWhiteIcon.png"), 55, 50);
+        ImageIcon warmIcon = resizeIcon(new ImageIcon("Resources/WarmIcon.png"), 55, 50);
+        ImageIcon vividIcon = resizeIcon(new ImageIcon("Resources/VividIcon.png"), 97, 50);
+        ImageIcon textIcon = resizeIcon(new ImageIcon("Resources/TextIcon.png"), 50, 50);
+        ImageIcon rotateIcon = resizeIcon(new ImageIcon("Resources/RotateIcon.png"), 43, 50);
+        ImageIcon paintBucketIcon = resizeIcon(new ImageIcon("Resources/PaintBucketIcon.png"), 62, 50);
         // Panel and Tabbed Pane declarations =========================================================================
         JPanel panel1 = new JPanel();
-        panel1.setLayout(new BoxLayout(panel1, BoxLayout.Y_AXIS));
+        //panel1.setLayout(new BoxLayout(panel1, BoxLayout.Y_AXIS));
+        panel1.setLayout(new GridLayout(8,1));
         tabbedPane.addTab("Tools", toolsIcon, panel1,"Does nothing");
         tabbedPane.setMnemonicAt(0, KeyEvent.VK_1);
 
         // Tools buttons
         JButton newPaintBrushButton = new JButton(paintBrushIcon);
-        JButton rotateButton = new JButton("Rotate");
-        JButton paintBucket = new JButton("paintBucket");
-        JButton brush = new JButton("paintBrush");
-        JButton textBox = new JButton("textBox");
-        this.brushField = new JTextField("10",30);
+        JButton rotateButton = new JButton(rotateIcon);
+        JButton paintBucket = new JButton(paintBucketIcon);
+        JButton brush = new JButton(paintBrushIcon);
+        JButton textBox = new JButton(textIcon);
+        this.brushField = new JTextField("10",10);
         this.label = new JLabel("brushsize: 3",JLabel.LEFT);
         this.brushSlider = new JSlider(JSlider.HORIZONTAL, 1, 50, 3);
+        //textBox.setBackground(new Color(238, 238, 238));
 
         label.setText("brushsize: 3");
         label.setAlignmentX(LEFT_ALIGNMENT);
@@ -60,6 +69,10 @@ public class DrawOptionsPanel extends JPanel
         panel1.add(brushField);
 
         // Button listeners and actions
+        rotateButton.addChangeListener(new ChangeListener() {
+            public void stateChanged(ChangeEvent e) {
+            }
+        });
         label.addPropertyChangeListener(
                 new PropertyChangeListener() {
 
@@ -115,6 +128,8 @@ public class DrawOptionsPanel extends JPanel
         tabbedPane.addTab("Colors", colorsIcon, panel2,"Does twice as much nothing");
         tabbedPane.setMnemonicAt(1, KeyEvent.VK_2);
         panel2.setLayout(new BorderLayout());
+
+        // Add buttons
         panel2.add(newPaintBrushButton, BorderLayout.CENTER);
         
        // newPaintBrush Layout
@@ -123,18 +138,20 @@ public class DrawOptionsPanel extends JPanel
        */
 
         // Panel and Effects Pane declarations =========================================================================
-        JComponent panel3 = makeTextPanel("Panel #3");
-        panel3.setLayout(new BoxLayout(panel3, BoxLayout.Y_AXIS));
+        //JComponent panel3 = makeTextPanel("Panel #3");
+        JPanel panel3 = new JPanel();
+        //panel3.setLayout(new BoxLayout(panel3, BoxLayout.Y_AXIS));
+        panel3.setLayout(new GridLayout(7,1));
         tabbedPane.addTab("Effects", effectsIcon, panel3,"Still does nothing");
         tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
 
         // Effects buttons
         JSlider blurDegree = new JSlider(JSlider.HORIZONTAL, 0, 9, 0);
         JSlider sharpnessDegree = new JSlider(JSlider.HORIZONTAL, 0, 10, 0);
-        JButton blackwhite = new JButton("BlackWhite");
-        JToggleButton warmfilter = new JToggleButton("WarmFilter");
-        JButton vivid = new JButton("Vivid");
-        JLabel blurLabel = new JLabel("Blur");
+        JButton blackwhite = new JButton(blackWhiteIcon);
+        JToggleButton warmfilter = new JToggleButton(warmIcon);
+        JButton vivid = new JButton(vividIcon);
+        JLabel blurLabel = new JLabel(blurIcon);
         JLabel sharpnessLabel = new JLabel("Sharpness");
         // Adding buttons to panels
         panel3.add(blurLabel);
