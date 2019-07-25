@@ -8,11 +8,13 @@ import java.awt.event.MouseListener;
 public class QuickSelectPanel extends JPanel
 {
 	Color currentColour = Color.black;
+    Color previousColour = null;
+    DrawOptionsPanel drawOptionsPanel;
 	
-    public QuickSelectPanel(CanvasPanel canvasPanel, DrawOptionsPanel drawOptionsPanel)
+    public QuickSelectPanel(CanvasPanel canvasPanel)
     {
     	SpringLayout layout = new SpringLayout();
-    	
+        drawOptionsPanel = new DrawOptionsPanel(canvasPanel, this);
         ImageIcon paintBrushIcon = resizeIcon(new ImageIcon("Resources/PaintBrush.png"), 50, 50);
         ImageIcon eraserIcon = resizeIcon(new ImageIcon("Resources/Eraser.png"), 60, 60);
         
@@ -153,7 +155,7 @@ public class QuickSelectPanel extends JPanel
                 25,
                 SpringLayout.NORTH, this);
         
-//greyPreseyLayout       
+//greyPresetLayout
         layout.putConstraint(SpringLayout.WEST, greyPresetButton,
                 0,
                 SpringLayout.EAST, blackPresetButton);
@@ -293,7 +295,7 @@ public class QuickSelectPanel extends JPanel
                 20,
                 SpringLayout.NORTH, this);
         
-//medBrushtLayout        
+//largeBrushLayout
         layout.putConstraint(SpringLayout.WEST, largeBrushButton,
                 25,
                 SpringLayout.EAST, medBrushButton);
@@ -305,11 +307,13 @@ public class QuickSelectPanel extends JPanel
 
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-				//canvasPanel.paintBrushColour = Color.yellow;
-				//canvasPanel.strokeSize = new BasicStroke(6);
-				//canvasPanel.
-				//repaint();
+                // TODO Auto-generated method stub
+                if (previousColour == null) {
+                    canvasPanel.paintBrushColour = Color.black;
+                }else {
+                    canvasPanel.paintBrushColour = previousColour;
+                }
+                //repaint();
 			}
 
 			@Override
@@ -338,37 +342,38 @@ public class QuickSelectPanel extends JPanel
         	
         	
         });
-        
+
         eraserButton.addMouseListener(new MouseListener() {
 
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-				
-			}
+            @Override
+            public void mouseClicked(MouseEvent arg0) {
+                // TODO Auto-generated method stub
+                canvasPanel.paintBrushColour = Color.white;
+                previousColour = currentColour;
+            }
 
-			@Override
-			public void mouseEntered(MouseEvent e) {
-				// TODO Auto-generated method stub
-				eraserButton.setIcon(darkEraserIcon);
-			}
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                // TODO Auto-generated method stub
+                eraserButton.setIcon(darkEraserIcon);
+            }
 
-			@Override
-			public void mouseExited(MouseEvent e) {
-				// TODO Auto-generated method stub
-				eraserButton.setIcon(eraserIcon);
-			}
+            @Override
+            public void mouseExited(MouseEvent e) {
+                // TODO Auto-generated method stub
+                eraserButton.setIcon(eraserIcon);
+            }
 
-			@Override
-			public void mousePressed(MouseEvent e) {
-				// TODO Auto-generated method stub
-			}
+            @Override
+            public void mousePressed(MouseEvent e) {
+                // TODO Auto-generated method stub
+            }
 
-			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-				
-			}
+            @Override
+            public void mouseReleased(MouseEvent e) {
+                // TODO Auto-generated method stub
+
+            }
         	
         	
         	
