@@ -11,7 +11,7 @@ public class OverallPanel extends JPanel implements KeyListener
     protected final int MAX_DIMENSION = (int)(screenSize.getWidth()/2);
     private static final int DELAY = 10;
     private CanvasPanel canvasPanel = new CanvasPanel();
-    private QuickSelectPanel quickSelectPanel = new QuickSelectPanel();
+    private QuickSelectPanel quickSelectPanel = new QuickSelectPanel(canvasPanel);
     private MenuPanel menuPanel = new MenuPanel(canvasPanel, quickSelectPanel);
     private int dimension = 0;
 
@@ -26,7 +26,7 @@ public class OverallPanel extends JPanel implements KeyListener
         this.add(tempCenterPanel, BorderLayout.CENTER);
 
         menuPanel.setMinimumSize(new Dimension(300, 0));
-        quickSelectPanel.setMinimumSize(new Dimension(0, 150));
+        quickSelectPanel.setMinimumSize(new Dimension(0, 100));
 
 
         menuPanel.setPreferredSize(menuPanel.getMinimumSize());

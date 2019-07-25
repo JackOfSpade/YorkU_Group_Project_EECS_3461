@@ -11,7 +11,7 @@ public class MenuPanel extends JPanel
         this.setLayout(new BorderLayout());
         this.setBorder(BorderFactory.createLineBorder(Color.gray));
 
-        JPanel drawOptionsPanel = new DrawOptionsPanel();
+        JPanel drawOptionsPanel = new DrawOptionsPanel(canvasPanel, quickSelectPanel);
         JPanel fileOptionsPanel = new FileOptionsPanel(canvasPanel, quickSelectPanel, this);
 
         this.add(drawOptionsPanel, BorderLayout.NORTH);

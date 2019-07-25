@@ -32,6 +32,9 @@ public class CanvasPanel extends JPanel
         super.paintComponent(g);
         //Brush color
         g.setColor(Color.black);
+        //Set width of brush stroke
+        Graphics2D g2d = (Graphics2D) g;
+        g2d.setStroke(new BasicStroke(3));
 
         if(drawImage && image != null)
         {
