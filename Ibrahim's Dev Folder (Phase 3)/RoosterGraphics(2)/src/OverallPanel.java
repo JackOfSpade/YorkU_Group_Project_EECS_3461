@@ -11,8 +11,8 @@ public class OverallPanel extends JPanel implements KeyListener
     protected final int MAX_DIMENSION = (int)(screenSize.getWidth()/2);
     private static final int DELAY = 10;
     private CanvasPanel canvasPanel = new CanvasPanel();
-    private DrawOptionsPanel drawOptionsPanel = new DrawOptionsPanel(canvasPanel);
-    private QuickSelectPanel quickSelectPanel = new QuickSelectPanel(canvasPanel, drawOptionsPanel);
+    private QuickSelectPanel quickSelectPanel = new QuickSelectPanel(canvasPanel);
+    //private DrawOptionsPanel drawOptionsPanel = new DrawOptionsPanel(canvasPanel, quickSelectPanel);
     private MenuPanel menuPanel = new MenuPanel(canvasPanel, quickSelectPanel);
     private int dimension = 0;
 

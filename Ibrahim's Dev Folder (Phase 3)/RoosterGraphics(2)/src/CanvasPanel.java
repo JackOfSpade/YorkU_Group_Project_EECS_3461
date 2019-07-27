@@ -45,6 +45,7 @@ public class CanvasPanel extends JPanel
         //g.setColor(Color.black);
         
         Graphics2D g2d = (Graphics2D) g;
+        //g2d.rotate();
 
         if(drawImage && image != null)
         {
@@ -82,8 +83,8 @@ public class CanvasPanel extends JPanel
                 while (it.hasNext())
                 {
                     ColoredPoint p2 = it.next();
-                    g.drawLine(p1.p.x, p1.p.y, p2.p.x, p2.p.y);
-                    p1.p = p2.p;
+                    g.drawLine(p1.getPoint().x, p1.getPoint().y, p2.getPoint().x, p2.getPoint().y);
+                    p1 = p2;
                 }
             }
         }
@@ -333,15 +334,26 @@ public class CanvasPanel extends JPanel
 
 class ColoredPoint {  // an object of this class represents a colored line segment
 
-	Point p;
-	Color paintBrushColour;
-	BasicStroke strokeSize;
-	
-	public ColoredPoint(Point p, Color color, BasicStroke size) {
-		this.p = p;
-		this.paintBrushColour = color;
-		this.strokeSize = size;
-	}
+    Point p;
+    Color paintBrushColour;
+    BasicStroke strokeSize;
 
+    public ColoredPoint(Point p, Color color, BasicStroke size) {
+        this.p = p;
+        this.paintBrushColour = color;
+        this.strokeSize = size;
+    }
+
+    public Point getPoint() {
+        return p;
+    }
+
+    public Color getColor() {
+        return paintBrushColour;
+    }
+
+    public BasicStroke getSize() {
+        return strokeSize;
+    }
 
 } // end class ColoredLine
