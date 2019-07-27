@@ -4,6 +4,6 @@ Removed adjustable/movable menus (due to time constraint), minimization still po
 
 Moved menus to the right. Most people read/view from left to right. Thus, the components on the left comes first and is viewed as more important. In this case, the canvas.
 
-Removed unpopular color models such as L-A-B, C-M-Y-K in favor of R-G-B for smplicity.
+Removed unpopular color models such as L-A-B, C-M-Y-K in favor of R-G-B for simplicity.
 
 Altered some icons for clarity.
