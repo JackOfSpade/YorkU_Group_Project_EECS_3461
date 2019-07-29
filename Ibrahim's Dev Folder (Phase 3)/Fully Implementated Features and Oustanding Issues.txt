@@ -9,5 +9,9 @@ Outstanding Issues:
 - ...
 - applying vivid filter and then trying to apply other filters. other filters won't be shown until blur degree is moved
 - drawing on a rotated image returns the image to the unrotated state
+- Alert box when clicking new canvas
+- Save as
+- Brightness slider
 
+. BONUS: customize UI color
 Note: This is where you document all the fully implemented features (no matter how small) that you've finished during your development phase, so you can write about it in the final report.

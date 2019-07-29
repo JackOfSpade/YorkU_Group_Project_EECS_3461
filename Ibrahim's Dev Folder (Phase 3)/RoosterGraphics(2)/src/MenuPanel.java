@@ -14,6 +14,7 @@ public class MenuPanel extends JPanel
         JPanel drawOptionsPanel = new DrawOptionsPanel(canvasPanel, quickSelectPanel);
         JPanel fileOptionsPanel = new FileOptionsPanel(canvasPanel, quickSelectPanel, this);
 
+
         this.add(drawOptionsPanel, BorderLayout.NORTH);
         this.add(fileOptionsPanel, BorderLayout.SOUTH);
     }

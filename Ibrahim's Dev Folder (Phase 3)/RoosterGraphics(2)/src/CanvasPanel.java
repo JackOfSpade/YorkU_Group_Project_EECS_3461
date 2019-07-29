@@ -26,7 +26,6 @@ public class CanvasPanel extends JPanel
 
     BufferedImage[] blurredImages = new BufferedImage[10];
     private int rotateDegree = 0;
-    private boolean rotateBool = false;
 
     public CanvasPanel()
     {
@@ -45,29 +44,16 @@ public class CanvasPanel extends JPanel
         //g.setColor(Color.black);
         
         Graphics2D g2d = (Graphics2D) g;
-        //g2d.rotate();
 
         if(drawImage && image != null)
         {
             int width = (this.getWidth() - image.getWidth(null)) / 2;
             int height = (this.getHeight() - image.getHeight(null)) / 2;
 
-            if(rotateBool)
-            {
-//            AffineTransform old = g2d.getTransform();
-//            g2d.rotate(Math.toRadians(rotateDegree));
-//            //draw shape/image (will be rotated)
-//            g2d.setTransform(old);
-                width = (this.getWidth() - image.getWidth(null)) / 2;
-                height = (this.getHeight() - image.getHeight(null)) / 2;
-                AffineTransform at = AffineTransform.getTranslateInstance(width,height);
-                at.rotate(Math.toRadians(rotateDegree), (this.getWidth()+299)/2, (this.getHeight()+99)/2);
-                g2d.drawImage(image,at,null);
-                rotateBool = false;
-            }
-            else {
-                g.drawImage(image, width, height, this);
-            }
+            AffineTransform at = AffineTransform.getTranslateInstance(width,height);
+            at.rotate(Math.toRadians(rotateDegree), (this.getWidth()+299)/2, (this.getHeight()+99)/2);
+            g2d.drawImage(image,at,null);
+            //g.drawImage(image, width, height, this);
         }
 
         for(int x=0; x<listOfPoints.size();x++)
@@ -113,6 +99,7 @@ public class CanvasPanel extends JPanel
         listOfPoints = new ArrayList<>();
         drawImage = false;
         blurredImages[0] = null;
+        rotateDegree = 0;
         repaint();
     }
 
@@ -297,20 +284,22 @@ public class CanvasPanel extends JPanel
             int width = image.getWidth();
             int height = image.getHeight();
             float[] hsb = new float[3];
-            for (int x = 0; x < width; x++) {
-                for (int y = 0; y < height; y++) {
-                    int p = image.getRGB(x, y);
-                    float frac = 0.01f;
-                    int a = (p >> 24) & 0xff; // Color is represented as a 32 bit int, each 8-bit section corresponds to one of the a,r,g,b values. This is how we isolate a section
-                    int r = ((p >> 16) & 0xff);
-                    int g = ((p >> 8) & 0xff);
-                    int b = (p & 0xff);
+            for(int i = 0; i<10; i++) {
+                for (int x = 0; x < width; x++) {
+                    for (int y = 0; y < height; y++) {
+                        int p = blurredImages[i].getRGB(x, y);
+                        float frac = 0.01f;
+                        int a = (p >> 24) & 0xff; // Color is represented as a 32 bit int, each 8-bit section corresponds to one of the a,r,g,b values. This is how we isolate a section
+                        int r = ((p >> 16) & 0xff);
+                        int g = ((p >> 8) & 0xff);
+                        int b = (p & 0xff);
 
-                    float[] col = Color.RGBtoHSB(r,g,b, hsb);
-                    hsb[0] *= 1.05;
-                    //int avg = (r + g + b) / 3;
-                    //p = (a << 24) | (r << 16) | (g << 8) | b; //Putting the values together
-                    image.setRGB(x, y, Color.HSBtoRGB(hsb[0], hsb[1], hsb[2]));
+                        float[] col = Color.RGBtoHSB(r, g, b, hsb);
+                        hsb[0] *= 1.05;
+                        //int avg = (r + g + b) / 3;
+                        //p = (a << 24) | (r << 16) | (g << 8) | b; //Putting the values together
+                        blurredImages[i].setRGB(x, y, Color.HSBtoRGB(hsb[0], hsb[1], hsb[2]));
+                    }
                 }
             }
             repaint();
@@ -326,7 +315,6 @@ public class CanvasPanel extends JPanel
 
     public void rotateImg(int degree){
         rotateDegree += degree;
-        rotateBool = true;
         repaint();
     }
 
