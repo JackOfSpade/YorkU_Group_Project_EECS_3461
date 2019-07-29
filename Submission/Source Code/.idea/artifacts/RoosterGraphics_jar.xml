@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RoosterGraphics:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RoosterGraphics_jar</output-path>
+    <root id="archive" name="RoosterGraphics.jar">
+      <element id="module-output" name="RoosterGraphics" />
+    </root>
+  </artifact>
+</component>

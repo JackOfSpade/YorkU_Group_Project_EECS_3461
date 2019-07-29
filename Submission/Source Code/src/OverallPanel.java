@@ -26,8 +26,8 @@ public class OverallPanel extends JPanel implements KeyListener
         this.add(menuPanel, BorderLayout.EAST);
         this.add(tempCenterPanel, BorderLayout.CENTER);
 
-        menuPanel.setMinimumSize(new Dimension(300, 0));
-        quickSelectPanel.setMinimumSize(new Dimension(0, 100));
+        menuPanel.setMinimumSize(new Dimension(300, 750));
+        quickSelectPanel.setMinimumSize(new Dimension(800, 100));
 
 
         menuPanel.setPreferredSize(menuPanel.getMinimumSize());

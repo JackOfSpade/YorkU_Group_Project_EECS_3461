@@ -44,7 +44,7 @@ public class DrawOptionsPanel extends JPanel
         JButton brush = new JButton(paintBrushIcon);
         JButton textBox = new JButton(textIcon);
         this.brushField = new JTextField("10",10);
-        this.label = new JLabel("brushsize: 3",JLabel.LEFT);
+        this.label = new JLabel("   Brushsize: 3",JLabel.LEFT);
         this.brushSlider = new JSlider(JSlider.HORIZONTAL, 1, 50, 3);
         textBox.setBackground(new Color(238, 238, 238));
         rotateButton.setBackground(new Color(238, 238, 238));
@@ -52,7 +52,7 @@ public class DrawOptionsPanel extends JPanel
         brush.setBackground(new Color(238, 238, 238));
 
 
-        label.setText("brushsize: 3");
+        label.setText("   Brushsize: 3");
         label.setAlignmentX(LEFT_ALIGNMENT);
 //        brushField.setAlignmentX(LEFT_ALIGNMENT);
 //        brushField.setPreferredSize(new Dimension(40,20));
@@ -84,7 +84,7 @@ public class DrawOptionsPanel extends JPanel
                     public void propertyChange(PropertyChangeEvent event) {
                         String property = event.getPropertyName();
                         if ("text".equals(property)) {
-                            label.setText("brushsize: " + brushSlider.getValue());
+                            label.setText("   Brushsize: " + brushSlider.getValue());
                         }
                     }
                 }
@@ -95,14 +95,14 @@ public class DrawOptionsPanel extends JPanel
                 String property = event.getPropertyName();
                 if ("value".equals(property)) {
                     int value = Math.round(canvasPanel.strokeSize.getLineWidth());
-                    label.setText("brushsize: " + value);
+                    label.setText("   Brushsize: " + value);
                 }
             }
         });
         brushSlider.addChangeListener(new ChangeListener() {
             public void stateChanged(ChangeEvent e) {
                 int value = brushSlider.getValue();
-                label.setText("brushsize: " + value);
+                label.setText("   Brushsize: " + value);
                 canvasPanel.strokeSize = new BasicStroke(value);
             }
         });
@@ -460,7 +460,7 @@ public class DrawOptionsPanel extends JPanel
         JButton warmfilter = new JButton(warmIcon);
         JButton vivid = new JButton(vividIcon);
         JLabel blurLabel = new JLabel(blurIcon);
-        JLabel sharpnessLabel = new JLabel("Sharpness");
+        JLabel sharpnessLabel = new JLabel("   Sharpness");
         warmfilter.setBackground(new Color(238, 238, 238));
         blackwhite.setBackground(new Color(238, 238, 238));
         vivid.setBackground(new Color(238, 238, 238));
@@ -528,7 +528,7 @@ public class DrawOptionsPanel extends JPanel
 
     public void setStroke(int size){
         this.brushSlider.setValue(size);
-        label.setText("brushsize: " + size);
+        label.setText("   Brushsize: " + size);
         this.brushField.setText(Integer.toString(size));
     }
 }
