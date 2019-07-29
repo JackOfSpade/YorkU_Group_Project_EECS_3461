@@ -1,1 +1,0 @@
-We exported a "Executable.jar" in the Source Code folder that you can run without opening up any IDE.
