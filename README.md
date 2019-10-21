@@ -1,6 +1,6 @@
 # Conceptual Design
 
-The goal of this project was to build a graphical editor from scratch using any language while following the fundamental design principles.
+The goal of this project was to build a graphical editor from scratch using any language while following the fundamental design principles taught in class.
 
 **Initial Design:**
 
