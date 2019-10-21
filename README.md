@@ -1,5 +1,7 @@
 # Conceptual Design
 
+The goal of this assignment was to build a graphical editor from scratch using any language while following the fundamental design principles.
+
 **Initial Design:**
 
 <img src="https://i.imgur.com/g5wnJxE.jpg" width="850" height="1067">
