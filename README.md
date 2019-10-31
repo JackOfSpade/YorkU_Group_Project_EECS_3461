@@ -12,6 +12,6 @@ The goal of this project was to build a graphical editor from scratch using any 
 
 # Application Demo 
 
-This demo shows the features of the application through the entire development, from start to finish.
+This video shows the features of the application through the entire development, from start to finish.
 
 [![](https://i.imgur.com/K8J4gWP.png)](https://www.youtube.com/watch?v=1mp7SFPao1g)
